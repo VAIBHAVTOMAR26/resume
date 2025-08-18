@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting to Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Immediate redirect to the PDF -->
+  <meta http-equiv="refresh" content="0; url=Vaibhav-resume.pdf">
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Arial, sans-serif; margin: 2rem; }
+    a { color: #0969da; }
+  </style>
+</head>
+<body>
+  <noscript>
+    <p>JavaScript is disabled. Click the link below to view the resume:</p>
+    <p><a href="Vaibhav-resume.pdf">Open Vaibhav-resume.pdf</a></p>
+  </noscript>
+  <script>
+    // Extra safety redirect in case some browsers ignore meta refresh
+    window.location.replace('Vaibhav-resume.pdf');
+  </script>
+  <p>If you are not redirected automatically, <a href="Vaibhav-resume.pdf">click here to view the resume</a>.</p>
+</body>
+</html>
